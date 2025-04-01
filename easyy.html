@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="webstyle.css">
+    <link rel="stylesheet" href="ResponsiveDesign.css">
+    <title>Zhoulo Pagalan Social Medai Dashboard</title>
+</head>
+<body>
+    <header>
+        <article class="header-wrapper">
+            <div class="logo">
+                <i class='bx bxs-color bx-spin' style='color:#ffffff'></i>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search...">
+                <div class="search-icon">
+                    <i class='bx bx-search search-icon' id="search-icon"></i>
+                </div>
+            </div>
+            <nav class="nav-container">
+                <a href="#home" class="nav-item"><i class='bx bx-home'></i> Home</a>
+                <a href="#profile" class="nav-item"><i class='bx bx-user'></i> Profile</a>
+                <div class="dropdown">
+                    <a href="#settings" class="nav-item dropdown-toggle"><i class='bx bx-cog'></i> Settings</a>
+                    <div class="dropdown-content" id="settings-dropdown">
+                        <a href="#account-settings">Account Settings</a>
+                        <a href="#privacy-settings">Privacy Settings</a>
+                        <a href="#logout">Logout</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#notifications" class="nav-item dropdown-toggle"><i class='bx bx-bell'></i> Notifications</a>
+                    <div class="dropdown-content" id="notifications-dropdown">
+                        <p>No new notifications</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#messages" class="nav-item dropdown-toggle"><i class='bx bx-envelope'></i> Messages</a>
+                    <div class="dropdown-content" id="messages-dropdown">
+                        <p>No new messages</p>
+                    </div>
+                </div>
+            </nav>
+        </article>
+    </header>
+    <article class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="meow.jpg" alt="Profile Picture">
+                <h2>Zhoulo Pagalan</h2>
+                <p>Lab ko parin siya🫶🏻</p>
+                <p>Location: Cagayan de Oro City, Philippines</p>
+                <p>Birth Date: May 4, 2005</p>
+                <p>Studies <b>Information Technology</b> at <b>Univesity of Science and Technology of Southern Philippines</b></p>
+                <a href="#see-more">See More</a>
+            </div>
+            <h2>Your Shortcuts</h2>
+            <ul>
+                <li><a href="#shortcut1">Shortcut 1</a></li>
+                <li><a href="#shortcut2">Shortcut 2</a></li>
+                <li><a href="#shortcut3">Shortcut 3</a></li>
+                <li><a href="#shortcut4">Shortcut 4</a></li>
+                <li><a href="#shortcut5">Shortcut 5</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <section id="whats-on-your-mind">
+                <h2>What's on your mind?</h2>
+                <textarea placeholder="What's on your mind?"></textarea>
+                <button id="post-button">Post</button>
+            </section>
+            <article class="post">
+                <h2>meow.dals</h2>
+                <p>Abassssss bakoshhhhh</p>
+                <div class="video-container">
+                    <video controls width="70%">
+                        <source src="meow.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="post-footer">
+                    <span class="post-date">Posted on March 5, 2025</span>
+                    <div class="post-actions">
+                        <button class="like-button">Like</button>
+                        <button class="comment-button">Comment</button>
+                        <button class="share-button">Share</button>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <h2>meowww.olacsss</h2>
+                <p>😺😺😺</p>
+                <div class="video-container">
+                    <video controls width="70%">
+                        <source src="meow1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="post-footer">
+                    <span class="post-date">Posted 6 minutes ago</span>
+                    <div class="post-actions">
+                        <button class="like-button">Like</button>
+                        <button class="comment-button">Comment</button>
+                        <button class="share-button">Share</button>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <h2>akiraaa.meoww</h2>
+                <p><b>*GE TAGAAN UG DAGHAN ACTIVITY</b><br>Ang R2 karon:</p>
+                <div class="video-container">
+                    <video controls width="70%">
+                        <source src="meow2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="post-footer">
+                    <span class="post-date">Posted 6 minutes ago</span>
+                    <div class="post-actions">
+                        <button class="like-button">Like</button>
+                        <button class="comment-button">Comment</button>
+                        <button class="share-button">Share</button>
+                    </div>
+                </div>
+            </article>
+            <div class="no-more-posts">
+                <h3>THE END...</h3>
+            </div>
+        </main>
+        <aside class="right-sidebar">
+            <div class="active-users">
+                <h2>Active Users</h2>
+                <ul>
+                    <li><span class="online-dot"></span> John Dalisay</li>
+                    <li><span class="online-dot"></span> Jomari Arsula</li>
+                    <li><span class="online-dot"></span> Giean Franco</li>
+                    <li><span class="online-dot"></span> Mark Olcas</li>
+                    <li><span class="online-dot"></span> Marki</li>
+                    <li><span class="online-dot"></span> Zhoulo Pagalan</li>
+                </ul>
+            </div>
+            <div class="upcoming-events">
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>
+                        <h3>FAESO: Pagsinaad</h3>
+                        <p>Date: March 25-28, 2025<br>Location: USTP CDO Gym</p>
+                    </li>
+                    <li>
+                        <h3>Scholars Cup</h3>
+                        <p>Date: March 29-31, 2025<br>Location: Cagayan de Oro City</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="friend-requests">
+                <h2>Friend Requests</h2>
+                <ul>
+                    <li>
+                        <img src="friend1.jpg" alt="Friend 1" class="friend-pic">
+                        <span>Friend 1</span>
+                        <button class="accept-button">Accept</button>
+                        <button class="decline-button">Decline</button>
+                    </li>
+                    <li>
+                        <img src="friend2.jpg" alt="Friend 2" class="friend-pic">
+                        <span>Friend 2</span>
+                        <button class="accept-button">Accept</button>
+                        <button class="decline-button">Decline</button>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </article>
+
+    <div id="notification" class="notification hidden">Your post has been posted!</div>
+    <div class="footer">
+        <p>My Social Media Dashboard By Zhoulo Pagalan | IT2R4.</p>
+    </div>
+    <script src="akongscript.js"></script>
+</body>
+</html>
